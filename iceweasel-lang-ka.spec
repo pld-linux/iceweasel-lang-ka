@@ -1,12 +1,12 @@
 %define		_lang		ka
 Summary:	Georgian resources for Iceweasel
 Name:		iceweasel-lang-%{_lang}
-Version:	3.0
-Release:	2
+Version:	3.0.1
+Release:	1
 License:	GPL
 Group:		I18n
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	a9faa07c672439764d5d94da4c764f0d
+# Source0-md5:	6024b4b8f0d04f44acf0a315c94df2e4
 BuildRequires:	sed >= 4.0
 BuildRequires:	unzip
 BuildRequires:	zip
