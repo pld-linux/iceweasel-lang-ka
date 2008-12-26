@@ -1,9 +1,10 @@
 %define		_lang		ka
 Summary:	Georgian resources for Iceweasel
+Summary(pl.UTF-8):	Gruzińskie pliki językowe dla Iceweasela
 Name:		iceweasel-lang-%{_lang}
 Version:	3.0.5
 Release:	1
-License:	GPL
+License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
 # Source0-md5:	f6e31dbe777cf563e5340fc118fda527
@@ -21,6 +22,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Georgian resources for Iceweasel.
+
+%description -l pl.UTF-8
+Gruzińskie pliki językowe dla Iceweasela.
 
 %prep
 
