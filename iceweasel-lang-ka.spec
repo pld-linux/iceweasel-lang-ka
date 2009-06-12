@@ -2,12 +2,12 @@
 Summary:	Georgian resources for Iceweasel
 Summary(pl.UTF-8):	Gruzińskie pliki językowe dla Iceweasela
 Name:		iceweasel-lang-%{_lang}
-Version:	3.0.10
+Version:	3.0.11
 Release:	1
 License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	b5bda04acfef655cee09e30b5b0ffc86
+# Source0-md5:	a30e3ec014ab35331bd0445d8a049cdf
 BuildRequires:	sed >= 4.0
 BuildRequires:	unzip
 BuildRequires:	zip
